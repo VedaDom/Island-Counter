@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99BCE38728FA140E00BE6ACD /* Island_CounterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BCE38628FA140E00BE6ACD /* Island_CounterApp.swift */; };
+		99BCE38928FA140E00BE6ACD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BCE38828FA140E00BE6ACD /* ContentView.swift */; };
+		99BCE38B28FA141100BE6ACD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99BCE38A28FA141100BE6ACD /* Assets.xcassets */; };
+		99BCE38E28FA141100BE6ACD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99BCE38D28FA141100BE6ACD /* Preview Assets.xcassets */; };
+		99BCE39828FA141100BE6ACD /* Island_CounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BCE39728FA141100BE6ACD /* Island_CounterTests.swift */; };
+		99BCE3A228FA141100BE6ACD /* Island_CounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BCE3A128FA141100BE6ACD /* Island_CounterUITests.swift */; };
+		99BCE3A428FA141100BE6ACD /* Island_CounterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BCE3A328FA141100BE6ACD /* Island_CounterUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99BCE39428FA141100BE6ACD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99BCE37B28FA140E00BE6ACD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99BCE38228FA140E00BE6ACD;
+			remoteInfo = "Island Counter";
+		};
+		99BCE39E28FA141100BE6ACD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99BCE37B28FA140E00BE6ACD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99BCE38228FA140E00BE6ACD;
+			remoteInfo = "Island Counter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99BCE38328FA140E00BE6ACD /* Island Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Island Counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99BCE38628FA140E00BE6ACD /* Island_CounterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Island_CounterApp.swift; sourceTree = "<group>"; };
+		99BCE38828FA140E00BE6ACD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		99BCE38A28FA141100BE6ACD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99BCE38D28FA141100BE6ACD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		99BCE39328FA141100BE6ACD /* Island CounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Island CounterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99BCE39728FA141100BE6ACD /* Island_CounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Island_CounterTests.swift; sourceTree = "<group>"; };
+		99BCE39D28FA141100BE6ACD /* Island CounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Island CounterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99BCE3A128FA141100BE6ACD /* Island_CounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Island_CounterUITests.swift; sourceTree = "<group>"; };
+		99BCE3A328FA141100BE6ACD /* Island_CounterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Island_CounterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99BCE38028FA140E00BE6ACD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99BCE39028FA141100BE6ACD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99BCE39A28FA141100BE6ACD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99BCE37A28FA140E00BE6ACD = {
+			isa = PBXGroup;
+			children = (
+				99BCE38528FA140E00BE6ACD /* Island Counter */,
+				99BCE39628FA141100BE6ACD /* Island CounterTests */,
+				99BCE3A028FA141100BE6ACD /* Island CounterUITests */,
+				99BCE38428FA140E00BE6ACD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99BCE38428FA140E00BE6ACD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99BCE38328FA140E00BE6ACD /* Island Counter.app */,
+				99BCE39328FA141100BE6ACD /* Island CounterTests.xctest */,
+				99BCE39D28FA141100BE6ACD /* Island CounterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99BCE38528FA140E00BE6ACD /* Island Counter */ = {
+			isa = PBXGroup;
+			children = (
+				99BCE38628FA140E00BE6ACD /* Island_CounterApp.swift */,
+				99BCE38828FA140E00BE6ACD /* ContentView.swift */,
+				99BCE38A28FA141100BE6ACD /* Assets.xcassets */,
+				99BCE38C28FA141100BE6ACD /* Preview Content */,
+			);
+			path = "Island Counter";
+			sourceTree = "<group>";
+		};
+		99BCE38C28FA141100BE6ACD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				99BCE38D28FA141100BE6ACD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		99BCE39628FA141100BE6ACD /* Island CounterTests */ = {
+			isa = PBXGroup;
+			children = (
+				99BCE39728FA141100BE6ACD /* Island_CounterTests.swift */,
+			);
+			path = "Island CounterTests";
+			sourceTree = "<group>";
+		};
+		99BCE3A028FA141100BE6ACD /* Island CounterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				99BCE3A128FA141100BE6ACD /* Island_CounterUITests.swift */,
+				99BCE3A328FA141100BE6ACD /* Island_CounterUITestsLaunchTests.swift */,
+			);
+			path = "Island CounterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99BCE38228FA140E00BE6ACD /* Island Counter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99BCE3A728FA141100BE6ACD /* Build configuration list for PBXNativeTarget "Island Counter" */;
+			buildPhases = (
+				99BCE37F28FA140E00BE6ACD /* Sources */,
+				99BCE38028FA140E00BE6ACD /* Frameworks */,
+				99BCE38128FA140E00BE6ACD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Island Counter";
+			productName = "Island Counter";
+			productReference = 99BCE38328FA140E00BE6ACD /* Island Counter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99BCE39228FA141100BE6ACD /* Island CounterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99BCE3AA28FA141100BE6ACD /* Build configuration list for PBXNativeTarget "Island CounterTests" */;
+			buildPhases = (
+				99BCE38F28FA141100BE6ACD /* Sources */,
+				99BCE39028FA141100BE6ACD /* Frameworks */,
+				99BCE39128FA141100BE6ACD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99BCE39528FA141100BE6ACD /* PBXTargetDependency */,
+			);
+			name = "Island CounterTests";
+			productName = "Island CounterTests";
+			productReference = 99BCE39328FA141100BE6ACD /* Island CounterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99BCE39C28FA141100BE6ACD /* Island CounterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99BCE3AD28FA141100BE6ACD /* Build configuration list for PBXNativeTarget "Island CounterUITests" */;
+			buildPhases = (
+				99BCE39928FA141100BE6ACD /* Sources */,
+				99BCE39A28FA141100BE6ACD /* Frameworks */,
+				99BCE39B28FA141100BE6ACD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99BCE39F28FA141100BE6ACD /* PBXTargetDependency */,
+			);
+			name = "Island CounterUITests";
+			productName = "Island CounterUITests";
+			productReference = 99BCE39D28FA141100BE6ACD /* Island CounterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99BCE37B28FA140E00BE6ACD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					99BCE38228FA140E00BE6ACD = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					99BCE39228FA141100BE6ACD = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 99BCE38228FA140E00BE6ACD;
+					};
+					99BCE39C28FA141100BE6ACD = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 99BCE38228FA140E00BE6ACD;
+					};
+				};
+			};
+			buildConfigurationList = 99BCE37E28FA140E00BE6ACD /* Build configuration list for PBXProject "Island Counter" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99BCE37A28FA140E00BE6ACD;
+			productRefGroup = 99BCE38428FA140E00BE6ACD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99BCE38228FA140E00BE6ACD /* Island Counter */,
+				99BCE39228FA141100BE6ACD /* Island CounterTests */,
+				99BCE39C28FA141100BE6ACD /* Island CounterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99BCE38128FA140E00BE6ACD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99BCE38E28FA141100BE6ACD /* Preview Assets.xcassets in Resources */,
+				99BCE38B28FA141100BE6ACD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99BCE39128FA141100BE6ACD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99BCE39B28FA141100BE6ACD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99BCE37F28FA140E00BE6ACD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99BCE38928FA140E00BE6ACD /* ContentView.swift in Sources */,
+				99BCE38728FA140E00BE6ACD /* Island_CounterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99BCE38F28FA141100BE6ACD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99BCE39828FA141100BE6ACD /* Island_CounterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99BCE39928FA141100BE6ACD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99BCE3A428FA141100BE6ACD /* Island_CounterUITestsLaunchTests.swift in Sources */,
+				99BCE3A228FA141100BE6ACD /* Island_CounterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99BCE39528FA141100BE6ACD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99BCE38228FA140E00BE6ACD /* Island Counter */;
+			targetProxy = 99BCE39428FA141100BE6ACD /* PBXContainerItemProxy */;
+		};
+		99BCE39F28FA141100BE6ACD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99BCE38228FA140E00BE6ACD /* Island Counter */;
+			targetProxy = 99BCE39E28FA141100BE6ACD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		99BCE3A528FA141100BE6ACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99BCE3A628FA141100BE6ACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99BCE3A828FA141100BE6ACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Island Counter/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kigalisoftware.Island-Counter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99BCE3A928FA141100BE6ACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Island Counter/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kigalisoftware.Island-Counter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		99BCE3AB28FA141100BE6ACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kigalisoftware.Island-CounterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Island Counter.app/Island Counter";
+			};
+			name = Debug;
+		};
+		99BCE3AC28FA141100BE6ACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kigalisoftware.Island-CounterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Island Counter.app/Island Counter";
+			};
+			name = Release;
+		};
+		99BCE3AE28FA141100BE6ACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kigalisoftware.Island-CounterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Island Counter";
+			};
+			name = Debug;
+		};
+		99BCE3AF28FA141100BE6ACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kigalisoftware.Island-CounterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Island Counter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99BCE37E28FA140E00BE6ACD /* Build configuration list for PBXProject "Island Counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99BCE3A528FA141100BE6ACD /* Debug */,
+				99BCE3A628FA141100BE6ACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99BCE3A728FA141100BE6ACD /* Build configuration list for PBXNativeTarget "Island Counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99BCE3A828FA141100BE6ACD /* Debug */,
+				99BCE3A928FA141100BE6ACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99BCE3AA28FA141100BE6ACD /* Build configuration list for PBXNativeTarget "Island CounterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99BCE3AB28FA141100BE6ACD /* Debug */,
+				99BCE3AC28FA141100BE6ACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99BCE3AD28FA141100BE6ACD /* Build configuration list for PBXNativeTarget "Island CounterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99BCE3AE28FA141100BE6ACD /* Debug */,
+				99BCE3AF28FA141100BE6ACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99BCE37B28FA140E00BE6ACD /* Project object */;
+}
